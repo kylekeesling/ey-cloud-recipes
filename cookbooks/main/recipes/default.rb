@@ -47,13 +47,13 @@
 # require_recipe "resque"
 
 #uncomment to run redis.yml recipe
-# require_recipe "redis-yml"
+require_recipe "redis-yml"
 
 #uncomment to run the resque-scheduler recipe
 # require_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
-#require_recipe "redis"
+require_recipe "redis"
 
 #uncomment to run the api-keys-yml recipe
 # require_recipe "api-keys-yml"
